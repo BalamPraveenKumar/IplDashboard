@@ -1,0 +1,54 @@
+
+.match-card {
+  list-style: none;
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px;
+  width: 200px;
+  flex-shrink: 0;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.match-card:hover {
+  transform: scale(1.05);
+}
+
+.match-card-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.match-card-name {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.match-card-result {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.match-card-status {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.match-card-status.won {
+  background-color: #16a34a;
+  color: #ecfdf5;
+}
+
+.match-card-status.lost {
+  background-color: #dc2626;
+  color: #fef2f2;
+}

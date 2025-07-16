@@ -1,0 +1,104 @@
+.latest-match-card-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #1e293b;
+  border-radius: 12px;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.latest-match-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border-left: 4px solid #00bfff;
+  padding-left: 12px;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #334155;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-match-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-logo-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+.latest-match-details-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.latest-match-team-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.latest-match-date,
+.latest-match-venue,
+.latest-match-status {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-logo {
+    margin-top: 0;
+  }
+}
+
+.latest-match-details-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+  border-top: 1px solid #475569;
+  padding-top: 20px;
+}
+
+.match-info-item {
+  min-width: 200px;
+}
+
+.latest-match-details-label {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.latest-match-details-value {
+  font-size: 14px;
+  color: #e2e8f0;
+}
